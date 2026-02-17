@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-main-dark: #091057; 
+  --color-main-light:#024CAA;
+  --color-accent:#EC8305;
+  --color-extra:#DBD3D3;
+
+  --font-zen: "Zen Dots", sans-serif;
+  --font-tektur: "Tektur", monospace;
+}
+@utility module-btn {
+  @apply w-full text-left px-4 py-3 border border-main-light
+         hover:border-accent hover:text-accent
+         transition-all;
+}
